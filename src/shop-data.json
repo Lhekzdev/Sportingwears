@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "name": "Spurs Away Kit",
+      "imageUrl": "https://res.cloudinary.com/dzyvwxh7n/image/upload/v1753799027/Son-Heung-min-in-Spurs-away-shirt_is5ejg.webp",
+      "price": 25
+    },
+    {
+      "id": 2,
+      "name": "Crystal-Palace",
+      "imageUrl": "https://res.cloudinary.com/dzyvwxh7n/image/upload/v1753799026/Crystal-Palace-kit-2025-2026_rxwkxy.webp",
+      "price": 18
+    },
+    {
+      "id": 3,
+      "name": "Wolves away kit",
+      "imageUrl": "https://res.cloudinary.com/dzyvwxh7n/image/upload/v1753799025/Wolves-away-kit_wnxxan.webp",
+      "price": 35
+    },
+    {
+      "id": 4,
+      "name": "Newcastle-away",
+      "imageUrl": "https://res.cloudinary.com/dzyvwxh7n/image/upload/v1753799024/Newcastle-away-kit-25-26_lakuuq.webp",
+      "price": 25
+    },
+    {
+      "id": 5,
+      "name": "Sunderland-home-kit",
+      "imageUrl": "https://res.cloudinary.com/dzyvwxh7n/image/upload/v1753799024/Sunderland-home-kit_tdm0vm.webp",
+      "price": 18
+    },
+    {
+      "id": 6,
+      "name": "Leeds-United-away-kit",
+      "imageUrl": "https://res.cloudinary.com/dzyvwxh7n/image/upload/v1753799024/Leeds-United-away-kit_a0t4wd.webp",
+      "price": 14
+    },
+    {
+      "id": 7,
+      "name": "Arsenal",
+      "imageUrl": "https://res.cloudinary.com/dzyvwxh7n/image/upload/v1753799022/Arsenal_wygcni.webp",
+      "price": 18
+    },
+    {
+      "id": 8,
+      "name": "Burnley-home-kit",
+      "imageUrl": "https://res.cloudinary.com/dzyvwxh7n/image/upload/v1753799022/Burnley-home-kit-202526_tcpb7w.webp",
+      "price": 14
+    },
+    {
+      "id": 9,
+      "name": "Everton-away-kit",
+      "imageUrl": "https://res.cloudinary.com/dzyvwxh7n/image/upload/v1753799022/Everton-away-kit_zggacd.webp",
+      "price": 16
+    }
+  ]
+  
