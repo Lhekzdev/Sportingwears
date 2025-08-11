@@ -1,4 +1,4 @@
-import { Outlet, useNavigate  } from "react-router-dom";
+import {  useNavigate  } from "react-router-dom";
 import Directory from "../directory/Directory"
 
 const Home = () => {
