@@ -1,10 +1,16 @@
+import React from 'react';
 import { useContext } from 'react';
 import { DropContext } from '../../contexts/Drop.down.context';
 import CheckoutItem from '../checkoutItem/CheckoutItem';
 import "./checkout.styles.scss"
+
+import { UserContext } from '../../contexts/user.context';
+import PayButton from '../payButton/PayButton';
+
+
 const Checkout = () => {
  const { cartItems, cartTotal } = useContext(DropContext);
-
+const { currentUser } = useContext(UserContext); // <-- Access logged-in user
 
 
   return (
@@ -29,7 +35,25 @@ const Checkout = () => {
       {cartItems.map((cartItem) => (
         <CheckoutItem key={cartItem.id} cartItem={cartItem} />
       ))}
-      <div className='total'>TOTAL: ${cartTotal}</div>
+      <div className='total'>TOTAL: ${cartTotal}
+   {currentUser ? (
+  cartItems.length > 0 ? (
+    <PayButton
+      email={currentUser.email}
+      amount={cartTotal}
+      cartItems={cartItems}
+    />
+  ) : (
+    <p style={{ color: 'red' }}>You haven't selected anything.</p>
+  )
+) : (
+  <p style={{ color: 'red' }}>Please login to proceed with payment.</p>
+)}
+
+
+
+      </div>
+
     </div>
   );
 };
